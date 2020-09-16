@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela+Round&display=swap');
+
+:root {
+  --title-font: 'Varela Round', sans-serif;
+  --text-font: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--title-font);
+}
+
+body {
+  background-color: lightgray;
+}
+
+main {
+  margin: 1em auto;
+  max-width: 60em;
+  box-sizing: border-box;
+  box-shadow: 0em 0em 1em gray;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: whitesmoke;
+}
+
+article {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border-bottom: 0.1em solid lightgray;
+}
+
+.contactThumbnail {
+  height: 1.5em;
+  width: 1.5em;
+  padding-right: 0.5em;
+}
+
+#contactDetails {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.articleHeading {
+  padding-bottom: 0.3em;
+}
+
+.previousJob {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 0.3em;
+  margin-bottom: 2em;
+}
+
+.jobTitle {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.jobDates {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: right;
+}
+
+.jobDescription {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.jobDescription > p {
+  margin-top: 0.5em;
+}
+
+.deployment {
+  text-align: center;
+}
