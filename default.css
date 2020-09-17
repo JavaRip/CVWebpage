@@ -16,11 +16,10 @@ body {
 }
 
 main {
-  margin: 1em auto;
+  margin: 0 auto;
   max-width: 60em;
   box-sizing: border-box;
   box-shadow: 0em 0em 1em gray;
-  border-radius: 1em;
   padding: 1em;
   background-color: whitesmoke;
 }
@@ -79,40 +78,31 @@ article {
 }
 
 p {
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+iframe {
+  margin-bottom: 1em;
+  margin-right: 1em;
 }
 
 .project {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: 2em auto;
-  grid-column-gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
   margin: 1em 0;
 }
 
 .projectTitle {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.projectDemo {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  padding: 0.3em 0;
 }
 
 .projectDescription {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  width: 18em;
+  flex-grow: 2;
 }
 
 #raycasting {
-  height: 10em;
+  height: 22em;
   width: 20em;
 }
 
