@@ -47,11 +47,11 @@
         <div class=jobDescription>
           <p>This project aims to help people in Bangladesh who drink from wells determine if their
           well water is safe.</p>
-          <p>It does this by using an environmental model to predict the levels of arsenic in the well
-          based on its location and appearance.</p>
+          <p>It does this by using an enviornmental model to predict the levels of arsenic in the well
+          based on its location and appearence.</p>
           <p>Working on this project has been an amazing privilege and has massively developed my skills
           in JSON data processing and geodata visualization.</p>
-          <p class=deployment><a href=https://github.com/portsoc/iArsenic>Click here</a> to see this project's Github repository</p>
+          <p class=deployment><a href=https://github.com/portsoc/iArsenic>Click here</a> to see this project's github repository</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
         <h4 class=jobTitle>Accounting</h4>
         <p class=jobDates>2016/06/01 to 2019/03/31</p>
         <div class=jobDescription>
-          <p>Before coming to Portsmouth University I was studying and working in accounting.</p>
+          <p>Prior to coming to Portsmout University I was studying and working in accounting.</p>
           <p>Working in accounting was not my calling but during my time in the profession I seriously developed
           my communication and organisation skills.</p>
         </div>
@@ -70,7 +70,7 @@
 
     <article id=otherExperience>
       <h3 class=articleHeading>Other Experience and Pet Projects</h3>
-      <p>In addition to programming at work I've taken part in severl hackathons and personal projects.</p>
+      <p>In addition to programming at work I've taken part in a number of hackathons and personal projects.</p>
 
       <div class=project>
         <h4 class=projectTitle>Ray casting in Javascript</h4>
@@ -82,9 +82,9 @@
         <div class=projectDescription>
           <p>Click the demo to use. Look around with the arrow keys
           and use the WASD keys to move.</p>
-          <p>The left side of the view shows a top-down perspective and the green cone shows the player's
-          field of view. The right side of the view shows the player's view in the first person.</p>
-          <p class=deployment><a href=https://github.com/JavaRip/JSRaycaster>Click here</a> to see this project's Github repository</p>
+          <p>The left side of the view shows a top down perspective and the green cone shows the players
+          field of view. The right side of the view shows the players view in first person.</p>
+          <p class=deployment><a href=https://github.com/JavaRip/JSRaycaster>Click here</a> to see this project's github repository</p>
         </div>
       </div>
 
@@ -98,10 +98,10 @@
         </iframe>
         <div class=projectDescription>
           <p>Click the demo to get started, this should show the options menu. First click Initialize Array, then open
-          the menu again and click Shuffle, then select a sorting algorithm to see it in action.</p>
+          the menu again and click Shuffle, then select a sortin algorithm to see it in action.</p>
           <p>Note that as well as the sorting algorithm being visualized, you can also click the Enable Sound
           button before starting to also hear the algorithms do their thing.</p>
-          <p class=deployment><a href=https://github.com/JavaRip/sortingVisualizer>Click here</a> to see this project's Github repository</p>
+          <p class=deployment><a href=https://github.com/JavaRip/sortingVisualizer>Click here</a> to see this project's github repository</p>
         </div>
       </div>
     </article>
