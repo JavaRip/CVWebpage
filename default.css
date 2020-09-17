@@ -56,6 +56,10 @@ article:last-of-type {
 .thumbnail {
   height: 1.5em;
   width: 1.5em;
+  padding-right: 0.5em;
+}
+
+button > .thumbnail {
   padding: 0.5em;
 }
 
