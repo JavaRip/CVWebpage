@@ -30,6 +30,10 @@ article {
   border-bottom: 0.1em solid lightgray;
 }
 
+article:last-of-type {
+  border-bottom: none;
+}
+
 .contactThumbnail {
   height: 1.5em;
   width: 1.5em;
@@ -91,12 +95,14 @@ iframe,
 .job {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 1em 0;
   width: inherit;
 }
 
 .job > img {
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 #pontoonImage,
@@ -122,6 +128,17 @@ iframe,
 #sortingVisualizer {
   height: 20em;
   width: 20em;
+}
+
+#skillsTable {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#skillsTable > div {
+  border-bottom: 0.1em solid silver;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .print {
