@@ -18,8 +18,8 @@ body {
 main {
   margin: 0 auto;
   max-width: 60em;
-  box-sizing: border-box;
   box-shadow: 0em 0em 1em gray;
+  box-sizing: border-box;
   padding: 1em;
   background-color: whitesmoke;
 }
@@ -70,7 +70,7 @@ article {
   text-align: right;
 }
 
-.jobDescription {
+.job {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -81,22 +81,35 @@ p {
   margin-bottom: 0.5em;
 }
 
-iframe {
+iframe,
+.project > img {
   margin-bottom: 1em;
   margin-right: 1em;
 }
 
-.project {
+.project,
+.job {
   display: flex;
   flex-wrap: wrap;
   margin: 1em 0;
+  width: inherit;
+}
+
+.job > img {
+  margin-right: 1em;
+}
+
+#pontoonImage,
+#iArsenicImage {
+  height: 20em;
 }
 
 .projectTitle {
   padding: 0.3em 0;
 }
 
-.projectDescription {
+.projectDescription,
+.jobDescription {
   width: 18em;
   flex-grow: 2;
 }
@@ -109,4 +122,34 @@ iframe {
 #sortingVisualizer {
   height: 20em;
   width: 20em;
+}
+
+.print {
+  display: none;
+}
+
+.dontPrint {
+  display: block;
+}
+
+@media print {
+  @page {
+    size: auto;
+  }
+
+  .pageArea * {
+    visibility: visible;
+  }
+
+  main {
+    box-shadow: none;
+  }
+
+  .print {
+    display: block;
+  }
+
+  .dontPrint {
+    display: none;
+  }
 }
