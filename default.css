@@ -15,6 +15,14 @@ body {
   background-color: lightgray;
 }
 
+button {
+  background-color: inherit;
+  border: 0.1em solid black;
+  border-radius: 0.4em;
+  width: 4em;
+  cursor: pointer;
+}
+
 main {
   margin: 0 auto;
   max-width: 60em;
@@ -24,20 +32,31 @@ main {
   background-color: whitesmoke;
 }
 
+#topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
 article {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   border-bottom: 0.1em solid lightgray;
 }
 
+#otherWorkExperience,
+#otherExperience,
+#skills {
+  page-break-inside: avoid;
+}
+
 article:last-of-type {
   border-bottom: none;
 }
 
-.contactThumbnail {
+.thumbnail {
   height: 1.5em;
   width: 1.5em;
-  padding-right: 0.5em;
+  padding: 0.5em;
 }
 
 #contactDetails {
@@ -152,6 +171,11 @@ iframe,
 @media print {
   @page {
     size: auto;
+    margin: 0;
+  }
+
+  body {
+    margin: 1.6cm;
   }
 
   .pageArea * {
