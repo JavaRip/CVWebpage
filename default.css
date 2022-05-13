@@ -45,7 +45,8 @@ article {
 
 #otherWorkExperience,
 #otherExperience,
-#skills {
+#skills,
+#experience {
   page-break-inside: avoid;
 }
 
@@ -80,6 +81,17 @@ button > .thumbnail {
   grid-template-rows: auto auto;
   row-gap: 0.3em;
   margin-bottom: 2em;
+}
+
+.jobImage {
+  object-fit: contain;
+  max-height: 17rem;
+}
+
+#habitatImage {
+  border: 0.1rem solid black;
+  padding: 0.3rem;
+  background: white;
 }
 
 .jobTitle {
